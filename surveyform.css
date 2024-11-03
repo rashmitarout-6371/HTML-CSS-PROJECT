@@ -1,0 +1,117 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-image: url(file:///C:/Users/ASUS/Desktop/PROJECT%20FOLDER/wp7153325.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #508011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Heading Styling */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heading {
+    font-size: 2em;
+    color: #241857;
+}
+
+#subheading {
+    font-size: 1.2em;
+    color: #4d5299;
+    margin-top: 5px;
+}
+
+/* Form Styling */
+form {
+    background-color: #508011;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cfc8c8;
+}
+
+/* Label and Input Styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #0e1924;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="age"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Checkbox and Radio Styling */
+input[type="checkbox"],
+input[type="radio"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#content2 label {
+    display: inline-block;
+    margin: 5px 10px 10px 0;
+    cursor: pointer;
+}
+
+/* Textarea Styling */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Button Styling */
+button {
+    background-color: #db3434;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button h3 {
+    margin: 0;
+}
